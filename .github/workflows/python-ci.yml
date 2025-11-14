@@ -1,4 +1,3 @@
-
 name: Python CI
 
 on:
@@ -33,5 +32,6 @@ jobs:
       - name: Run tests
         run: |
           if [ -d tests ]; then pytest; else echo "Nenhum teste encontrado"; fi
+
 
 

@@ -1,4 +1,3 @@
-
 from sum import sum
 
 def test_sum():
